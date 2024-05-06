@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <h1>Login</h1>
+            <div class="input-container">
+                <input placeholder="Email" type="email">
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/user--v1.png">
+            </div>
+            <div class="input-container">
+                <input placeholder="Senha" type="password">
+                <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/lock--v1.png">
+                <a href="esqueceu-senha.html">Esqueci minha senha</a>
+            </div>
+            <button type="submit" class="submit-button"><a href="index.html">Entrar</a></button>
+            <div class="register-link">
+                <p>Está <a href="registro.html">Cadastrado?</a></p>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+<script>
+    function togglePassword() {
+        var passwordField = document.getElementById("password");
+        var eyeIcon = document.getElementById("https://img.icons8.com/ios-glyphs/30/lock--v1.png");
+
+        if (passwordField.type === "password") {
+            passwordField.type = "text";
+            eyeIcon.src = "https://img.icons8.com/ios-glyphs/30/lock--v1.png"
+        }
+    }
+
+</script>
+
+</script>

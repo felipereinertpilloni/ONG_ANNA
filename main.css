@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4db6e7;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom:solid #333 3px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.produtos {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+}
+
+.produto {
+    margin: 25px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.produto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.Doar {
+    text-align: center;
+    font-size: 250%;
+    color:#ffa600;
+}
+.small-r {
+    font-size: 0.6em; /* Tamanho da fonte menor */
+  }
+  
+#produto1 {
+     color: #1b7daa;
+}
+
+#produto2 {
+    color: #ffa600;
+}
+
+#produto3 {
+    color: #ff0000;
+}
+
+#produto4 {
+    color: #1b7daa;
+    font-size: 60%;
+    padding: 20px;
+}
